@@ -1,6 +1,6 @@
 {
   "name": "react-redux-mendeley",
-  "version": "7.4.0",
+  "version": "7.4.1",
   "description": "react-redux-mendeley is a React toastr message implemented with Redux",
   "main": "lib/index.js",
   "jsnext:main": "./src/index.js",
@@ -12,7 +12,7 @@
     "postcss": "./node_modules/.bin/postcss --u autoprefixer -o ./lib/css/react-redux-toastr.min.css ./lib/css/react-redux-toastr.min.css",
     "clean": "./node_modules/.bin/rimraf dist lib",
     "lint": "./node_modules/eslint/bin/eslint.js --fix .",
-    "build_app": "concurrent --kill-others & npm run clean & npm run lint & npm run build & npm run sass & npm run clean-css",
+    "build_app": "concurrent --kill-others & npm run clean & npm run lint & npm run build & npm run sass & npm run clean",
     "buildc": "better-npm-run build_client"
   },
   "eslintConfig": {

@@ -84,7 +84,7 @@ export default class ToastrBox extends React.Component {
     if (e.key === ' ' || e.key === 'enter') {
       this.handleClickToastr(e);
     }
-  }
+  };
 
   handlePressEnterOrSpaceKeyCloseButton(e) {
     if (e.key === ' ' || e.key === 'enter') {
@@ -104,7 +104,7 @@ export default class ToastrBox extends React.Component {
       this._setShouldClose(true);
       this._removeToastr();
     }
-  }
+  };
 
   handleClickCloseButton = (e) => {
     let {onCloseButtonClick} = this.props.item.options;
@@ -118,7 +118,7 @@ export default class ToastrBox extends React.Component {
 
     this._setShouldClose(true);
     this._removeToastr();
-  }
+  };
 
   mouseEnter = () => {
     clearTimeout(this.intervalId);
@@ -132,7 +132,7 @@ export default class ToastrBox extends React.Component {
     if (timeOut && progressBar) {
       this.setState({progressBar: null});
     }
-  }
+  };
 
   mouseLeave = () => {
     const {removeOnHover, removeOnHoverTimeOut} = this.props.item.options;
@@ -148,7 +148,7 @@ export default class ToastrBox extends React.Component {
         this.setState({progressBar: {duration: interval}});
       }
     }
-  }
+  };
 
   renderSubComponent() {
     const {
