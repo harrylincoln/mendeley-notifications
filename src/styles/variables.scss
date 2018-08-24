@@ -1,6 +1,20 @@
 $toastr-width: 350px !default;
-$successBgColor: #60bb71 !default;
+
+$successBgColor: #ecfaf7 !default;
+$successFontColor: #226758;
+$successBorderColor: #b5ece0;
+$successIconColor: #3ebba0;
+$successIconHoverColor: #37a68e;
+
+
 $infoBgColor: #58abc3 !default;
 $warningBgColor: #f7a336 !default;
-$errorBgColor: #db6a64 !default;
+
+
+$errorBgColor: #FEF4F5 !default;
+$errorFontColor: #b91624;
+$errorBorderColor: #fad1d5;
+$errorIconColor: #f5a4ab;
+$errorIconHoverColor: #d01928;
+
 $defaultSpace: 10px;
