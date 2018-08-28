@@ -1,6 +1,6 @@
 {
   "name": "mendeley-notifications",
-  "version": "7.6.0",
+  "version": "7.6.1",
   "description": "mendeley-notifications is a React toastr message implemented with Redux",
   "main": "lib/index.js",
   "jsnext:main": "./src/index.js",

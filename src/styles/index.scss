@@ -117,8 +117,9 @@ body.toastr-confirm-active {
     .rrt-middle-container {
       width: 79%;
       float: left;
-      font-family: NexusSans,Arial,sans-serif;
+      font-family: NexusSans, Arial, sans-serif;
       font-size: 1rem;
+      line-height: 1.25rem;
       text-align: left;
       padding: 13px $unit*3 11px $unit*3;
 
@@ -141,7 +142,7 @@ body.toastr-confirm-active {
       outline: none;
       cursor: pointer;
       font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
-      margin: $unit*3 $unit*4 0 0;
+      margin: $unit*2.5 $unit*4 0 0;
       right: 0;
       padding: 0;
 
