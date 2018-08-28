@@ -53,7 +53,6 @@ body.toastr-confirm-active {
   .toastr {
     background-color: #fcfcfc;
     width: 100%;
-    min-height: 38px;
     overflow: hidden;
     margin: 10px 0;
     border-radius: 4px;
@@ -96,11 +95,7 @@ body.toastr-confirm-active {
     }
 
     .rrt-left-container {
-      width: 10%;
-      top: 0;
-      left: 0;
-      position: absolute;
-      bottom: 0;
+      width: 10.5%;
 
       .rrt-holder {
         width: 100%;
@@ -112,22 +107,20 @@ body.toastr-confirm-active {
 
       .toastr-icon {
         vertical-align: middle;
-        margin-top: 5px;
-        height: 21px;
-        width: 19px;
-        margin: 8px 0px 0px 12px;
+        position: relative;
+        margin-top: 11px;
+        margin-left: $unit*4;
+
       }
     }
 
     .rrt-middle-container {
-      width: 80%;
-      margin-left: 10%;
-      position: relative;
+      width: 79%;
       float: left;
       font-family: NexusSans,Arial,sans-serif;
-      font-size: 1em;
+      font-size: 1rem;
       text-align: left;
-      padding: 10px 10px;
+      padding: 13px $unit*3 11px $unit*3;
 
       .rrt-title {
         font-size: 1.1em;
@@ -137,21 +130,20 @@ body.toastr-confirm-active {
     }
 
     .rrt-right-container {
-      width: 10%;
-      top: 0;
-      right: 0;
-      position: absolute;
+      width: 10.5%;
     }
 
     .close-toastr {
-      position: relative;
+      position: absolute;
       background-color: transparent;
-      font-size: 20px;
+      font-size: 1rem;
       border: none;
       outline: none;
       cursor: pointer;
       font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
-      margin: 5px 5px 0 0;
+      margin: $unit*3 $unit*4 0 0;
+      right: 0;
+      padding: 0;
 
       &:hover {
         opacity: 1;

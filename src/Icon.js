@@ -7,7 +7,7 @@ export default class Icon extends React.Component {
   static displayName = 'ReduxToastrIcon';
 
   static defaultProps = {
-    size: 32
+    size: 20
   };
 
   constructor(props) {
