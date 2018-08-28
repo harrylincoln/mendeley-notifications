@@ -4,30 +4,9 @@ export default function(name) {
   switch (name) {
     case 'success':
       return (
-    <g id="Notifications" stroke="none" strokeWidth="1" fill="" fillRule="evenodd">
-            <g id="notification/positive" transform="translate(-17.000000, -13.000000)">
-                <g id="icon/action/tick/solid20" transform="translate(16.000000, 12.000000)">
-                    <g id="icon/solidcontainer" transform="translate(1.000000, 1.000000)">
-                        <mask id="mask-2" fill="white">
-                            <use xlinkHref="#path-1"></use>
-                        </mask>
-                        <use id="Mask" fill="#505050" fillRule="evenodd" xlinkHref="#path-1"></use>
-                        <g id="colour/Aqua/aqua-10" mask="url(#mask-2)" fill="#3DBA9F" fillRule="evenodd">
-                            <rect id="Rectangle-10" x="0" y="0" width="18" height="18"></rect>
-                        </g>
-                    </g>
-                    <g id="icon/10px/tick" transform="translate(5.000000, 5.000000)">
-                        <mask id="mask-4" fill="white">
-                            <use xlinkHref="#path-3"></use>
-                        </mask>
-                        <use id="tick10" fill="#000000" fillRule="nonzero" xlinkHref="#path-3"></use>
-                        <g id="colour/neutral/white" mask="url(#mask-4)" fill="#FFFFFF" fillRule="evenodd">
-                            <rect id="Rectangle-10" x="0" y="0" width="10" height="10"></rect>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>);
+        <g id="tick-solid" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+           <path d="M9,18 C4.02943725,18 0,13.9705627 0,9 C0,4.02943725 4.02943725,0 9,0 C13.9705627,0 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 Z M7.92693696,9.84679653 L5.96275888,7.88261845 L4.83138803,9.0139893 L7.92693696,12.1095382 L12.7352631,7.30121212 L11.6038922,6.16984127 L7.92693696,9.84679653 Z" id="Combined-Shape" fill="#3DBA9F"/>
+       </g>);
     case 'info':
       return <g>
           <path d="M14 9.5c0-0.825 0.675-1.5 1.5-1.5h1c0.825 0 1.5 0.675 1.5 1.5v1c0 0.825-0.675 1.5-1.5 1.5h-1c-0.825 0-1.5-0.675-1.5-1.5v-1z"></path>
