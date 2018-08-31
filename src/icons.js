@@ -4,7 +4,7 @@ export default function(name) {
   switch (name) {
     case 'success':
       return (
-        <g id="tick-solid" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+        <g id="tick-solid" stroke="none" strokeWidth="0" fill="none" fillRule="evenodd">
            <path d="M9,18 C4.02943725,18 0,13.9705627 0,9 C0,4.02943725 4.02943725,0 9,0 C13.9705627,0 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 Z M7.92693696,9.84679653 L5.96275888,7.88261845 L4.83138803,9.0139893 L7.92693696,12.1095382 L12.7352631,7.30121212 L11.6038922,6.16984127 L7.92693696,9.84679653 Z" id="Combined-Shape" fill="#3DBA9F"/>
        </g>);
     case 'info':

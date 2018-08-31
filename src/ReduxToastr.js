@@ -97,7 +97,7 @@ export class ReduxToastr extends React.Component {
           };
 
           return (
-            <span key={item.id}>
+            <div className="access-wrapper" key={item.id} role={item.type === 'error' ? 'alert' : 'status'} aria-live={item.type === 'error' ? 'assertive' : 'polite'}>
               <ToastrBox
                 inMemory={this.toastrFired}
                 addToMemory={() => this._addToMemory(item.id)}
@@ -115,7 +115,7 @@ export class ReduxToastr extends React.Component {
                 }}
                 className="toastr-attention"/>
               }
-            </span>
+            </div>
           );
         });
     }
@@ -140,8 +140,9 @@ export class ReduxToastr extends React.Component {
 
   render() {
     const {className, toastr} = this.props;
+
     return (
-      <span className={cn('redux-toastr', className)} aria-live="assertive">
+      <span className={cn('redux-toastr', className)}>
         {toastr.confirm &&
           <ToastrConfirm
             confirm={toastr.confirm}

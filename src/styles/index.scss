@@ -11,6 +11,10 @@ body.toastr-confirm-active {
     box-sizing: border-box;
   }
 
+  .access-wrapper {
+    display: flex;
+  }
+
   .top-left, .top-right, .top-center, .bottom-left, .bottom-right, .bottom-center {
     width: $toastr-width;
     position: fixed;
@@ -39,14 +43,11 @@ body.toastr-confirm-active {
     margin-left: -($toastr-width / 2);
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: $toastr-width) {
     .top-left, .top-right, .top-center, .bottom-left, .bottom-right, .bottom-center {
-      width: $toastr-width - 30;
-    }
-
-    .top-center, .bottom-center {
-      $with: $toastr-width - 30;
-      margin-left: -($with / 2);
+      width: 100%;
+      left: 0;
+      margin: 0;
     }
   }
 

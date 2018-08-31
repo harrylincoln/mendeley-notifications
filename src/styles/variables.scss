@@ -1,5 +1,6 @@
-$toastr-width: 350px !default;
 $unit: 4px;
+$toastr-width: $unit*143 !default;
+
 
 $successBgColor: #ecfaf7 !default;
 $successFontColor: #226758;
@@ -18,4 +19,4 @@ $errorBorderColor: #fad1d5;
 $errorIconColor: #f5a4ab;
 $errorIconHoverColor: #d01928;
 
-$defaultSpace: 10px;
+$defaultSpace: $unit*2.5;

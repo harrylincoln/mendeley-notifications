@@ -187,6 +187,7 @@ export default class ToastrBox extends React.Component {
     return (
       <button
         type="button"
+        aria-label="Close"
         className="close-toastr"
         onClick={this.handleClickCloseButton}
       >
@@ -213,7 +214,7 @@ export default class ToastrBox extends React.Component {
         {options.status && type === 'light' && <div className={classnames('toastr-status', options.status)}/>}
         <div className="rrt-middle-container">
           {title && <div className="rrt-title">{title}</div>}
-          {message && <div className="rrt-text">{message}</div>}
+          {message && <div className="rrt-text" role={type === 'error' ? 'alert' : ''}>{message}</div>}
           {options.component && this.renderSubComponent()}
         </div>
 
